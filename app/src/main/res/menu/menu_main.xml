@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_1"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search_icon"
+        android:title="search"
+        app:showAsAction="always"  />
+    <item
+        android:id="@+id/action_2"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_plane_badge"
+        android:title="plane"
+        app:showAsAction="always"  />
+    <item
+        android:id="@+id/action_3"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_bell_badge"
+        android:title="bell"
+        app:showAsAction="always" />
+</menu>
